@@ -16,9 +16,9 @@ def gno_generalstopwords():
 
 def gno_generalstopwords_cn():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    filepath = os.path.join(dir_path, "stopwords_cn.txt")
+    filepath = os.path.join(dir_path, "stopwords_cn.csv")
     file = open(filepath, "r", encoding = "utf8", errors = 'backslashreplace')
-    GenStopWords_cn = pd.read_csv(file, sep = " ", skipinitialspace = True, keep_default_na = False ,header=None)
+    GenStopWords_cn = pd.read_csv(file, sep = " ", skipinitialspace = True, keep_default_na = False ,header="infer")
     file.close()
     return GenStopWords_cn
     
