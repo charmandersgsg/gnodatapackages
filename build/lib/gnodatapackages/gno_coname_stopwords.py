@@ -12,7 +12,7 @@ def test():
     print(__file__)
     return ("hello am here at coname_stopwords")
 
-def gno_coname_stopwords():
+def gno_inconame_stopwords():
     dir_path = os.path.dirname(os.path.realpath(__file__))
     filepath = os.path.join(dir_path, "coname_stopwords_gno.csv")
     file = open(filepath, "r", encoding = "utf8", errors = 'backslashreplace')
