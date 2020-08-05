@@ -1,7 +1,7 @@
 ﻿tosearch,toreplace,comments
 .,  ,punctuations
 -, ,punctuations
-, ,punctuations
+', ,punctuations
 ",", ,punctuations
 (, ,punctuations
 ), ,punctuations
@@ -22,5 +22,8 @@ pt,perseroan terbatas ,
  grp, group ,
  corp , corporation ,
  env ,environment,
+ (S) , singapore ,
+ (M) , malaysia ,
+ (HK) , hong kong ,
  inc$, incorporated,endofname
  corp$, corporation,endofname
