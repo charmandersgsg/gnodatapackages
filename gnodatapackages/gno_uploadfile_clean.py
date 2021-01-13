@@ -16,7 +16,7 @@ import ftfy
 # remove gibberish and covert back to correct data  in selected column data 
 # remove leading and trailing punc in selected column data 
 
-def Load_files(File, *argv ):       
+def load_files(File, *argv ):       
 	
     File_fd = open(File, "r", encoding = "utf8", errors = 'ignore')
 
