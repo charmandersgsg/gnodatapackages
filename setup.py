@@ -7,7 +7,7 @@ def readme():
 
 setuptools.setup(
     name="gnodatapackages", # Replace with your own username
-    version="1.1.4",
+    version="1.1.5",
     author="charmandersgsg",
     author_email="charmandersgsg@gmail.com",
     description="data def packages for gno",
