@@ -17,7 +17,7 @@ with open('README.md') as f:
     
 setuptools.setup(
     name="gnodatapackages", # Replace with your own username
-    version="1.2.5",
+    version="1.2.4",
     author="charmandersgsg",
     author_email="charmandersgsg@gmail.com",
     description="data def packages for gno",

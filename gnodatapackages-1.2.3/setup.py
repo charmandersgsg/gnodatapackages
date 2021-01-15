@@ -17,12 +17,12 @@ with open('README.md') as f:
     
 setuptools.setup(
     name="gnodatapackages", # Replace with your own username
-    version="1.2.5",
+    version="1.2.3",
     author="charmandersgsg",
     author_email="charmandersgsg@gmail.com",
     description="data def packages for gno",
-#     long_description = long_description,
-    long_description="data def packages for gno",
+#     long_description="data def packages for gno",
+    long_description = long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/charmandersgsg/gnodatapackages",
     packages=['gnodatapackages'],
